@@ -31,8 +31,14 @@ namespace CognitiveSearch.UI
         {
             "metadata_storage_path",
             "metadata_storage_name",
-            "metadata_title",
-
+            "name",
+            "contenttype",
+            "contentlabel",
+            "mainbody",
+            "language",
+            "url",
+            "keywords",
+            "date",
             // Add fields needed to display results cards
 
             // NOTE: if you customize the resultFields, be sure to include metadata_storage_name,
@@ -40,7 +46,7 @@ namespace CognitiveSearch.UI
             //"people",
             //"locations",
             //"organizations",
-            "keyPhrases"
+            //"keyPhrases"
             //"geoLocation"
         };
 
